@@ -15,6 +15,10 @@
             background-color: #B68C5A;
             color: white;
         }
+
+        .transform-carousel {
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 
@@ -173,40 +177,125 @@
             <h2 class="font-bold text-4xl">What Our Clients Say</h2>
             <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
                 corporis earum doloremque! Earum odio quae atque eius expedita?</p>
-            <div>
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                            class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
+            <div class="carousel w-full text-white rounded-xl">
+                <!-- testimonial 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- testimonial 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- testimonial 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="text-center space-y-7 mb-24">
+            <h2 class="font-bold text-4xl">Frequently Asked Questions</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
+                corporis earum doloremque! Earum odio quae atque eius expedita?</p>
+            <div class="md:flex md:items-center gap-8 space-y-7">
+                <div class="w-4/5 mx-auto md:w-1/2 space-y-7">
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem, consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam suscipit?</p>
                         </div>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                            class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem, consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam suscipit?</p>
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                            class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem, consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam suscipit?</p>
                         </div>
                     </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                            class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem, consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam suscipit?</p>
                         </div>
                     </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem, consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam suscipit?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-4/5 mx-auto md:w-1/2">
+                    <img src="images/faq.png" alt="">
                 </div>
             </div>
         </section>
